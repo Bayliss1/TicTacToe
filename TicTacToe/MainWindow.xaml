@@ -42,10 +42,10 @@
         <TextBlock x:Name="Box8" FontSize="36" FontFamily="Arial Black" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" Text="" TextWrapping="Wrap" VerticalAlignment="Center"/>
         <TextBlock x:Name="Box9" FontSize="36" FontFamily="Arial Black" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" Text="" TextWrapping="Wrap" VerticalAlignment="Center"/>
 
-        <Line X1="10" Y1="10" X2="300" Y2="10" Stroke="Black" StrokeThickness="3" Grid.ColumnSpan="5" Margin="90,86,10,62" Grid.RowSpan="2" Grid.Row="2" />
-        <Line X1="10" Y1="10" X2="300" Y2="10" Stroke="Black" StrokeThickness="3" Grid.ColumnSpan="5" Margin="90,86,10,63" Grid.RowSpan="2" Grid.Row="1" />
-        <Line X1="10" Y1="10" X2="10" Y2="300" Stroke="Black" StrokeThickness="3" Grid.ColumnSpan="2" Margin="89,87,11,63" Grid.RowSpan="5" Grid.Column="1" />
-        <Line X1="10" Y1="10" X2="10" Y2="300" Stroke="Black" StrokeThickness="3" Grid.ColumnSpan="2" Margin="89,87,11,63" Grid.RowSpan="5" Grid.Column="2" />
+        <Line X1="0" Y1="0" X2="300" Y2="0" Stroke="Black" StrokeThickness="3" Grid.ColumnSpan="3" Margin="0,96,0,50" Grid.RowSpan="2" Grid.Row="2" Grid.Column="1" />
+        <Line X1="0" Y1="0" X2="300" Y2="0" Stroke="Black" StrokeThickness="3" Grid.ColumnSpan="3" Margin="0,0,0,52" Grid.Row="2" Grid.Column="1" />
+        <Line X1="0" Y1="0" X2="0" Y2="300" Stroke="Black" StrokeThickness="3" Grid.RowSpan="3" Grid.Column="2" Grid.Row="1" />
+        <Line X1="0" Y1="0" X2="0" Y2="300" Stroke="Black" StrokeThickness="3" Grid.RowSpan="3" Grid.Column="3" Grid.Row="1" />
 
         <Button x:Name="RestartGame" Content="Restart Game" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" FontFamily="Arial Black"/>
 
